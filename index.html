@@ -1,247 +1,425 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
 
-<head>
-	<meta http-equiv="content-type" content="text/html;charset=iso-8859-2" />
-	<link href="/static/css/style.css" rel="stylesheet" type="text/css" />
-	<link href="/static/css/pygment.css" rel="stylesheet" type="text/css" />
+  <body>
+    <div id="mobile-menu-open" class="shadow-large">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+      <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <ul id="menu" class="shadow">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <!-- End header -->
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <div id="lead">
+      <div id="lead-content">
+        <h1>Vaibhav Gupta</h1>
+        <h2>UI Architect</h2>
+        <a href="#" class="btn-rounded-white">Download Resume</a>
+      </div>
+      <!-- End #lead-content -->
 
-	<!-- The Columnal Grid (1140px wide base, load first), Type and image presets, and mobile stylesheet -->
-	<link rel="stylesheet" href="/static/css/columnal.css" type="text/css" media="screen" />
+      <div id="lead-overlay"></div>
 
-	<!-- Customizations -->
-	<link rel="stylesheet" href="/static/css/custom.css" type="text/css" media="screen" />
+      <div id="lead-down">
+        <span>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+      </div>
+      <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
 
-	<!-- Page build tools - only needed while creating a site, remove when launching - Gray box colors and page debugging tools -->
-	<link rel="stylesheet" href="/static/css/build.css" type="text/css" media="screen" />
-</head>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading">About Me</h2>
+          </div>
+          <div class="col-md-8">
+            <p>
+              I am currently working as a Senior associate experience technology
+              L2 in Publicis Sapient's London office. I joined Publicis Sapient
+              in March 2019 and has worked on several projects that encompassed
+              the full software development lifecycle. I have an experience in
+              defining, designing, implementing, and maintaining complex
+              enterprise level front end web and mobile applications. In
+              addition to that, I also have experience in BI and analytics
+              domain while working in previous organisations.
+            </p>
+            <p>
+              The majority of my experience has been in the front end tools and
+              technologies. Majority of my work around front end frameworks such
+              react-redux, angular and core object oriented javascript. Most
+              recently, I have worked on mobile application development in
+              financial domain wherein I helped to set up project architecture
+              and various building blocks of ios and android mobile app using
+              react native.
+            </p>
+            <p>
+              In my previous organisation, I had an experience in BI and
+              analytics domain as well where I worked to analyse and create
+              dashboard and reports for automobile industries using various
+              graph libraries. I also got a chance to work in different
+              geographies across the world including USA, UK and India and have
+              very good exposure to work with different people and culture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End #about -->
 
-<style type="text/css">
-	.avatar {
-		width: 200px;
-	}
-	.tenure{
-		display: block;
-    	font-style: italic;
-    	margin-bottom: 15px;
-	}
-	.col_12 .org{
-		margin-bottom: .1em;
-	}
-</style>
+    <div id="experience" class="background-alt">
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+        <div data-date="March 2019 – Present">
+          <h3>Publicis Sapient - London, UK</h3>
+          <h4>Senior Associate Experience Technology L2</h4>
+          <ul>
+            <li>
+              Developed platform agnostic secure mobile applications for
+              financial institutions using react native and OKTA identity access
+              management.
+            </li>
+            <li>
+              Implemented authentication and authorization using PKCE flow in
+              login and registration journeys.
+            </li>
+            <li>
+              Defined and implemented data persistence strategy in the mobile
+              app to define user centric workflows.
+            </li>
+            <li>
+              Worked closely with technical and design leadership to analyze and
+              define solutions for complex business problems.
+            </li>
+            <li>
+              Developed full-fledged transport navigation application for
+              Heathrow using React-Redux and sagas that gives customers a
+              complete door-to-door guide with times and directions.
+            </li>
+            <li>
+              Develop and manage various client applications into separate
+              independently versioned packages modules using Lerna repository
+              management.
+            </li>
+            <li>
+              Worked on Adobe experience manager (AEM) tool to generate
+              templates using HTL language and integrating react apps within AEM
+              templates.
+            </li>
+            <li>
+              Implemented full-fledged Airline tracking application for Heathrow
+              to provide complete airline information such as departure,
+              arrival, flight time, baggage information etc. for given flight.
+            </li>
+            <li>
+              Conducted internal technical and knowledge sharing session within
+              the front-end developer’s community.
+            </li>
+          </ul>
+        </div>
 
-<body>
+        <div data-date="October 2014 – Feburury 2019">
+          <h3>CDK Global LLC - Seattle, WA USA</h3>
+          <h4>Software Engineer III</h4>
+          <ul>
+            <li>
+              Developed and supported of all Dealer command center and OEM
+              Reports for audience/consumer segmentation data.
+            </li>
+            <li>
+              Provided a platform for development teams that enables them to
+              quickly plug in new reporting modules and bring their data sets
+              and insights to our customers.
+            </li>
+            <li>
+              Developed dashboard for showing alerts and notification to dealers
+              based on consumer, inventory & sales data using Angular and Node.
+            </li>
+            <li>
+              Provided support to dealers and OEMs to perform actions based on
+              various reports audience, inventory and sales report to increase
+              their sales.
+            </li>
+          </ul>
+        </div>
 
-	<div class="container">
-		<div class="row">
+        <div data-date="June 2012 – September 2014">
+          <h3>Automatic Data Processing Pvt. Ltd.- Pune, MH India</h3>
+          <h4>Consultant</h4>
+          <ul>
+            <li>
+              Developed SEO tool that simulates google search engine methods to
+              define page rankings based on various internal and external
+              factors crucial to determine websites rankings in google and other
+              search results.
+            </li>
+            <li>
+              Developed and managed Cobalt internal object-oriented JavaScript
+              framework which were designed to full fill dealers needs and well
+              suited for rapid customized website development for dealers.
+            </li>
+            <li>
+              Developed and supported various graphical interfaces built using
+              JS graph libraries such as jqplot, D3 etc. in order to provide
+              dealers an intuitive presentation of keyword rich data on their
+              websites.
+            </li>
+          </ul>
+        </div>
+        <div data-date="January 2011 – June 2012">
+          <h3>Sapient Corporation - Noida, India</h3>
+          <h4>Senior Interactive Developer</h4>
+          <ul>
+            <li>
+              Developed product search and product comparison functionality on
+              staples e-commerce website. That give enhanced product feature
+              comparison up to certain number of selected products
+            </li>
+            <li>
+              Implemented product category and product detail pages for staples
+              e-commerce website.
+            </li>
+          </ul>
+        </div>
+        <div data-date="November 2007 – January 2011">
+          <h3>Tata Consultancy Services Limited – Pune, MH India</h3>
+          <h4>Assistant Systems Engineer</h4>
+          <ul>
+            <li>
+              Developed XSLT templates implementing various structures for the
+              similar kind of modules in order to maintain uniformity and
+              maintainability of them while rendering on the different web
+              pages.
+            </li>
+            <li>
+              Implemented cross-browser compatibility for MSN money website
+              pages.
+            </li>
+            <li>
+              Provided production support on various MSN websites for their
+              feature release including Bing search integration.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End #experience -->
 
-			<div class="container">
-				<div class="row">
-					<div class="col_4 clearleft">
-						<h2>
-							<a class="logo" href="#">
-								<span>Vaibhav Gupta</span>
-							</a>
-						</h2>
-					</div>
-				</div>
-			</div>
+    <div id="education">
+      <h2 class="heading">Education</h2>
+      <div class="education-block">
+        <h3>University of Rajasthan, India</h3>
+        <span class="education-date">July 2003 - Aug 2007</span>
+        <h4>Bachelor of Engineering in Electornics</h4>
+        <p>
+          (B.E.) Bachelor of Engineering (Honors) in Electronics,
+          Instrumentation and Control Engineering, July 2007
+        </p>
+      </div>
+      <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
 
+    <div id="projects" class="background-alt">
+      <h2 class="heading">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/project.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Project Name Here</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                eget efficitur libero. Morbi dapibus porta quam laoreet
+                placerat.
+              </p>
+              <a href="#">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
 
-			<div class="container">
-				<div class="row">
-					<div class="col_4 clearleft avatar">
-						<img class="mobile-hide" src="/static/images/vaibhav_photo.jpg" title="View my profile @ https://github.com/vaibhavcpgeek"
-						 alt="" />
-					</div>
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/project.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Project Name Here</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+                tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+                eget efficitur libero. Morbi dapibus porta quam laoreet
+                placerat.
+              </p>
+              <a href="#">View Project</a>
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+        </div>
+      </div>
+    </div>
+    <!-- End #projects -->
 
-					<div class="col_8 omega">
-						Software Engineer III at CDK Global LLC
-						<br/>
-						<strong>email: </strong>
-						<a class="email">cpgeek.vaibhav@hotmail.com</a>
-						</br>
-						<strong>linkedin: </strong>
-						<a class="email" href="https://www.linkedin.com/in/vaibhavcpgeek/" target="_blank">https://www.linkedin.com/in/vaibhavcpgeek/</a>
-						</br>
-						<strong>github: </strong>
-						<a class="email" href="https://github.com/vaibhavcpgeek" target="_blank">https://github.com/vaibhavcpgeek</a>
-						</br>
-						<a class="email" href="https://drive.google.com/file/d/1BpIHM6Ixbt_obMG8l4qREfzf8I1yDELw/view" target="_blank">Download Resume</a>
-					</div>
-				</div>
-			</div>
+    <div id="skills">
+      <h2 class="heading">Skills</h2>
+      <ul>
+        <li>Advanced JavaScript</li>
+        <li>HTML5/CSS3</li>
+        <li>React</li>
+        <li>Redux</li>
+        <li>Sagas</li>
+        <li>AngularJs</li>
+        <li>React native</li>
+        <li>Flow/Typescript</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>Unit Testing</li>
 
-			<br/>
-			<div class="container">
-				<div class="row">
-					<div class="col_12">
-						User Experience Developer with more than 10 years of experience in creating highly responsive website design on devices across
-						all form factors ranging from Desktops to Mobile Platforms.
-						<br />
-						<br/>
-					</div>
-				</div>
+        <li>Server-side rendering</li>
+        <li>SEO</li>
+        <li>Usability & Accessibility</li>
+        <li>Application Security</li>
+        <li>Authentication/Authorization</li>
+        <li>Typography</li>
+        <li>Mobile First Development</li>
+        <li>Stash</li>
+        <li>GIT</li>
+        <li>Jenkins</li>
+        <li>SourceTree</li>
+        <li>Adobe AEM</li>
+        <li>REST API design and integration</li>
+        <li>Mobile Development</li>
+        <li>Agile</li>
+        <li>Scrum</li>
+      </ul>
+    </div>
+    <!-- End #skills -->
 
+    <div id="contact">
+      <h2>Get in Touch</h2>
+      <div id="contact-form">
+        <form method="POST" action="https://formspree.io/email@email.com">
+          <input
+            type="hidden"
+            name="_subject"
+            value="Contact request from personal website"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
 
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 copyright">
+            <p>
+              Copyright &copy; 2020 YOUR NAME
+            </p>
+          </div>
+          <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="col-sm-5 social">
+            <ul>
+              <li>
+                <a href="https://github.com/" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/" target="_blank"
+                  ><i class="fa fa-stack-overflow" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/" target="_blank"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/" target="_blank"
+                  ><i class="fa fa-google-plus" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
 
-				<div class="row">
-					<section id="skills">
-						<div class="col_12 title">
-							<h2>Techinical Skills</h2>
-						</div>
-						<div class="col_12">
-							<ul>
-								<li>Experience in front end technologies such as
-									<strong>HTML CSS </strong> and
-									<strong>JavaScript</strong>.</li>
-								<li>Proficient in writing
-									<strong>Object Oriented JavaScript</strong> and
-									<strong>design patterns</strong>.</li>
-								<li>Solid Experience in writing
-									<strong>cross-browser compatible</strong> front-end code.</li>
-								<li>Experience with webpage loading performance techniques.</li>
-								<li>Good knowledge of
-									<strong>Responsive web design </strong> and development.</li>
-								<li>Advance knowledge of JavaScript frameworks such as
-									<strong>JQuery, Angular </strong> etc.</li>
-								<li>Working knowledge of
-									<strong>React JS </strong>development.</li>
-								<li>Proficient in writing
-									<strong>Semantic SEO</strong> friendly markup.</li>
-								<li>Working knowledge of
-									<strong>Node JS</strong> and
-									<strong>MongoDB</strong>.</li>
-								<li>Understanding of
-									<strong>Usability</strong> and
-									<strong>Accessibility</strong> standards such as section-508 compliance etc</li>
-								<li>Experience with
-									<strong>Test-driven development</strong> in an Agile environment</li>
-							</ul>
-						</div>
-					</section>
-				</div>
-
-				<div class="row">
-
-					<div class="col_12 title">
-						<h2>Experience</h2>
-					</div>
-
-					<div class="col_12">
-						<h3 class="org">CDK Global LLC - Seattle, WA USA </h3>
-						<span class="tenure">Oct' 2014 to Present</span>
-						<strong>Software Engineer III</strong>
-						<ul>
-							<li>Development and support of all DCC and OEM Reports for audience/consumer segmentation data.</li>
-							<li>Provide a platform for dev teams that enables them to quickly plug in new reporting modules and bring their data sets
-								and insights to our customers.</li>
-							<li>Develop dashboard for showing alerts and notification to dealers based on consumer, inventory & sales data.</li>
-							<li>Develop and integrate audience reports with CDK’s common reporting platform</li>
-							<li>Tracking user’s behavior using pixel tag and send this information to BI which collects all the user activity information
-								and help in deciding user preferences, his propensity to buy, his shopping behavior etc. Using this information,
-								we create complete personalized experience for users and serve the exact content user is looking for.</li>
-							<li>Undertake estimation and planning for track deliverables, report and track issues / next steps to team as a part of
-								Agile Development.</li>
-							<li>Data Interchange, which includes defining and parsing valid data interchange structures to integrate with backend
-								services XML, JSON etc.</li>
-						</ul>
-					</div>
-
-					<div class="col_12">
-						<h3 class="org">Automatic Data Processing - Pune, MH India</h3>
-						<span class="tenure">June' 2012 - Oct' 2014</span>
-						<strong>Consultant</strong>
-						<ul>
-							<li>Translated comps and functional requirements into actual web pages using HTML, CSS and JavaScript that includes converting mockup into wireframes compatible to dealer’s websites using cobalt internal website manager tool.</li>
-							<li>Developed and managed ADP's internal object oriented JavaScript framework which were designed to full fill dealers needs
-								and well suited for rapid customized website development for dealers.</li>
-							<li>Worked closely with Ad teams to integrate ad template into the websites, which are built to drive more traffic on dealer
-								websites.</li>
-							<li>Handled various graphical interfaces developed using JS libraries in order to provide dealers an intuitive presentation
-								of keyword rich data on their websites. Some of these libraries are jqplot, D3 etc.</li>
-							<li>Implemented dynamic webpages based on user search and intent and serves the content that is most relevant to current
-								visiting user.</li>
-							<li>Analyzed and Improved SEO (Search Engine Optimization) and social signals on dealer's websites in order to get increased user traffic using ADP Cobalt internal tools.</li>
-
-						</ul>
-					</div>
-					<div class="col_12">
-						<h3 class="org">Sapient Corporation - Noida, India</h3>
-						<span class="tenure">Jan' 2011 - June' 2012</span>
-						<strong>Senior Front-End Engineer</strong>
-						<ul>
-							<li>Developed HTML templates in Dreamweaver for various reusable modules</li>
-							<li>Implemented Search result page and category pages for
-								<a href="https://www.staples.com/">staples.com</a> website.</li>
-							<li>Developed product comparision pages for
-								<a href="https://www.staples.com/">staples.com</a>
-							</li>
-							<li>Implemented Section 508 Compliance for accessibility standards for
-								<a href="https://www.staples.com/">staples.com</a> pages.</li>
-							<li>Implemented complex dynamic behavior of the modules through JQuery and AJAX</li>
-						</ul>
-					</div>
-
-					<div class="col_12">
-						<h3 class="org">Tata Consultancy Services - Pune, MH India</h3>
-						<span class="tenure">Nov' 2007 - Jan' 2011</span>
-						<strong>Assistant Systems Engineer
-						</strong>
-						<ul>
-							<li>Developed XSLT templates implementing various structures for the similar kind of modules in order to maintain uniformity
-								and maintainability of them while rendering on the different web pages.</li>
-							<li>Analysing the requirement of the current money site of MSN and estimating the efforts required to recreate the various
-								modules in new environment.</li>
-							<li>Implemented the functionality of various feed and service driven modules rendering the stocks data and market analysis.</li>
-							<li>Designed the layout of the modules and implementing the optimum html structure compliance to the W3C standards.</li>
-							<li>Implemented cross-browser compatibility for
-								<a href="https://www.msn.com/en-us/money">MSN money</a> website pages.</li>
-							<li>Provided production support for all
-								<a href="https://www.msn.com/">msn.com</a> websites</li>
-							<li>Part of the team responsible for integrating
-								<a href="https://www.bing.com/">Bing</a> search engine with various msn sites.</li>
-						</ul>
-					</div>
-
-				</div>
-
-				<div class="row">
-					<section id="skills">
-						<div class="col_12 title">
-							<h2> Professional Achievements </h2>
-						</div>
-						<div class="col_12">
-							<ul>
-								<li>Rewarded by "On the Spot" award from "Tata Consultancy Services" for providing excellent assistance to various projects
-									during critical project delivery dates.</li>
-								<li>Recognized for one of the core values of Sapient "Client Focus Delivery" award for playing noteworthy between sapient
-									onshore and offshore and Infosys counterparts to deliver excellent product for Staples.</li>
-							</ul>
-						</div>
-					</section>
-				</div>
-
-				<div class="row">
-						<section id="skills">
-							<div class="col_12 title">
-								<h2>Acedemics</h2>
-							</div>
-							<div class="col_12">
-								<strong>Rajasthan Technical University, Kota, RJ India</strong>
-								<p>(B.E.) Bachelor of Engineering (Honors) in Electronics, Instrumentation and Control Engineering, July 2007 </p>
-							</div>
-						</section>
-					</div>
-
-			</div>
-		</div>
-	</div>
-	<br/>
-	<hr/>
-
-</body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+  </body>
 </html>
