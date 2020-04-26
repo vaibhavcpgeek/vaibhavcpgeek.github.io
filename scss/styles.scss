@@ -360,7 +360,7 @@ footer {
 #lead-content {
   position: absolute;
   z-index: 10;
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -373,7 +373,7 @@ footer {
   h1 {
     color: #fff;
     font-weight: 500;
-    font-size: 5em;
+    font-size: 4em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     line-height: 0.9em;
@@ -384,6 +384,15 @@ footer {
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px;
+  }
+  .profile {
+    width: 180px;
+    margin: auto;
+    height: 180px;
+    border-radius: 90px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: solid 2px #3498db;
   }
 }
 
